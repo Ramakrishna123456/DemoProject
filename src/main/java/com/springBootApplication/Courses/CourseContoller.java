@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.springBootApplication.Topic.Topic;
 
 @RestController
-public class CourseContoller {
- 
+public class CourseContoller{
+	
 	@Autowired
 	private CourseService  courseService;
 	

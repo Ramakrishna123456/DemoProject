@@ -8,12 +8,12 @@ import com.springBootApplication.Topic.Topic;
 
 @Entity
 public class Course {
-	
+	///My second commit
 	@Id
 	private String Id;
 	private String name;
 	private String description;
-	
+	private String price;
 	@ManyToOne
 	private Topic topic;
 	
